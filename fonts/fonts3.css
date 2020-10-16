@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Champion";
+  src: url("Champion-Middleweight.woff2") format("woff2"),
+    url("Champion-Middleweight.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Material Icons";
+  src: url("Material-Icons.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Regular.woff2") format("woff2"),
+    url("ProximaNova-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Bold.woff2") format("woff2"),
+    url("ProximaNova-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Light.woff2") format("woff2"),
+    url("ProximaNova-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}

@@ -1,0 +1,313 @@
+/* Colors */
+/* Fonts */
+:root {
+  scroll-behavior: smooth;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+          font-feature-settings: "kern", "liga", "clig", "calt";
+  text-shadow: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d5d3e4;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  margin: 1rem auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Champion";
+  font-weight: 300;
+  margin: 2rem 0 1rem 0;
+  color: #230939;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.125rem;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.15rem;
+  text-align: left;
+}
+
+p {
+  margin: 2rem 0 1rem 0;
+}
+
+.m-icon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+}
+
+.comps {
+  background-color: #007d91;
+}
+
+.comps .container {
+  max-width: 1680px;
+  margin: auto;
+  padding: 2rem;
+  color: #737373;
+}
+
+.comps header > h1,
+.comps header > h2,
+.comps header > h3,
+.comps header > h4,
+.comps header > p,
+.comps section > h1,
+.comps section > h2,
+.comps section > h3,
+.comps section > h4,
+.comps section > p {
+  color: white;
+}
+
+.comps *:first-child {
+  margin-top: 0;
+}
+
+.comps *:last-child {
+  margin-bottom: 0;
+}
+
+.comps .demo {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 2rem;
+}
+
+/* Buttons */
+.btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.8em;
+  padding: 0 1em;
+  border: none;
+  border-radius: 1.9em;
+  color: white;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.btn--default {
+  background-color: #007d91;
+  -webkit-box-shadow: inset 0 0 0 0.15em #007d91;
+          box-shadow: inset 0 0 0 0.15em #007d91;
+}
+
+.btn--default:hover, .btn--default:focus {
+  background-color: #00b6b4;
+  -webkit-box-shadow: inset 0 0 0 0.15em #00b6b4;
+          box-shadow: inset 0 0 0 0.15em #00b6b4;
+}
+
+.btn--default.btn--outline {
+  color: #007d91;
+}
+
+.btn--default.btn--outline:hover, .btn--default.btn--outline:focus {
+  color: #00b6b4;
+}
+
+.btn--default:disabled, .btn--default:disabled:hover, .btn--default:disabled:hover, .btn--default.btn--outline:disabled, .btn--default.btn--outline:disabled:hover, .btn--default.btn--outline:disabled:focus {
+  background-color: #e6e7e8;
+  -webkit-box-shadow: inset 0 0 0 0.15em #e6e7e8;
+          box-shadow: inset 0 0 0 0.15em #e6e7e8;
+  cursor: not-allowed;
+}
+
+.btn--default.btn--outline:disabled, .btn--default.btn--outline:disabled:hover, .btn--default.btn--outline:disabled:focus {
+  background-color: transparent;
+  color: #e6e7e8;
+}
+
+.btn--purple {
+  background-color: #3d2462;
+  -webkit-box-shadow: inset 0 0 0 0.15em #3d2462;
+          box-shadow: inset 0 0 0 0.15em #3d2462;
+}
+
+.btn--purple:hover, .btn--purple:focus {
+  background-color: #6e46ae;
+  -webkit-box-shadow: inset 0 0 0 0.15em #6e46ae;
+          box-shadow: inset 0 0 0 0.15em #6e46ae;
+}
+
+.btn--purple.btn--outline {
+  color: #3d2462;
+}
+
+.btn--purple.btn--outline:hover, .btn--purple.btn--outline:focus {
+  color: #6e46ae;
+}
+
+.btn--purple:disabled, .btn--purple:disabled:hover, .btn--purple:disabled:hover, .btn--purple.btn--outline:disabled, .btn--purple.btn--outline:disabled:hover, .btn--purple.btn--outline:disabled:focus {
+  background-color: #e6e7e8;
+  -webkit-box-shadow: inset 0 0 0 0.15em #e6e7e8;
+          box-shadow: inset 0 0 0 0.15em #e6e7e8;
+  cursor: not-allowed;
+}
+
+.btn--purple.btn--outline:disabled, .btn--purple.btn--outline:disabled:hover, .btn--purple.btn--outline:disabled:focus {
+  background-color: transparent;
+  color: #e6e7e8;
+}
+
+.btn--red {
+  background-color: #dc323c;
+  -webkit-box-shadow: inset 0 0 0 0.15em #dc323c;
+          box-shadow: inset 0 0 0 0.15em #dc323c;
+}
+
+.btn--red:hover, .btn--red:focus {
+  background-color: #b557af;
+  -webkit-box-shadow: inset 0 0 0 0.15em #b557af;
+          box-shadow: inset 0 0 0 0.15em #b557af;
+}
+
+.btn--red.btn--outline {
+  color: #dc323c;
+}
+
+.btn--red.btn--outline:hover, .btn--red.btn--outline:focus {
+  color: #b557af;
+}
+
+.btn--red:disabled, .btn--red:disabled:hover, .btn--red:disabled:hover, .btn--red.btn--outline:disabled, .btn--red.btn--outline:disabled:hover, .btn--red.btn--outline:disabled:focus {
+  background-color: #e6e7e8;
+  -webkit-box-shadow: inset 0 0 0 0.15em #e6e7e8;
+          box-shadow: inset 0 0 0 0.15em #e6e7e8;
+  cursor: not-allowed;
+}
+
+.btn--red.btn--outline:disabled, .btn--red.btn--outline:disabled:hover, .btn--red.btn--outline:disabled:focus {
+  background-color: transparent;
+  color: #e6e7e8;
+}
+
+.btn--gold {
+  background-color: #f09b1e;
+  -webkit-box-shadow: inset 0 0 0 0.15em #f09b1e;
+          box-shadow: inset 0 0 0 0.15em #f09b1e;
+}
+
+.btn--gold:hover, .btn--gold:focus {
+  background-color: #82d296;
+  -webkit-box-shadow: inset 0 0 0 0.15em #82d296;
+          box-shadow: inset 0 0 0 0.15em #82d296;
+}
+
+.btn--gold.btn--outline {
+  color: #f09b1e;
+}
+
+.btn--gold.btn--outline:hover, .btn--gold.btn--outline:focus {
+  color: #82d296;
+}
+
+.btn--gold:disabled, .btn--gold:disabled:hover, .btn--gold:disabled:hover, .btn--gold.btn--outline:disabled, .btn--gold.btn--outline:disabled:hover, .btn--gold.btn--outline:disabled:focus {
+  background-color: #e6e7e8;
+  -webkit-box-shadow: inset 0 0 0 0.15em #e6e7e8;
+          box-shadow: inset 0 0 0 0.15em #e6e7e8;
+  cursor: not-allowed;
+}
+
+.btn--gold.btn--outline:disabled, .btn--gold.btn--outline:disabled:hover, .btn--gold.btn--outline:disabled:focus {
+  background-color: transparent;
+  color: #e6e7e8;
+}
+
+.btn--fuchsia {
+  background-color: #b557af;
+  -webkit-box-shadow: inset 0 0 0 0.15em #b557af;
+          box-shadow: inset 0 0 0 0.15em #b557af;
+}
+
+.btn--fuchsia:hover, .btn--fuchsia:focus {
+  background-color: #6e46ae;
+  -webkit-box-shadow: inset 0 0 0 0.15em #6e46ae;
+          box-shadow: inset 0 0 0 0.15em #6e46ae;
+}
+
+.btn--fuchsia.btn--outline {
+  color: #b557af;
+}
+
+.btn--fuchsia.btn--outline:hover, .btn--fuchsia.btn--outline:focus {
+  color: #6e46ae;
+}
+
+.btn--fuchsia:disabled, .btn--fuchsia:disabled:hover, .btn--fuchsia:disabled:hover, .btn--fuchsia.btn--outline:disabled, .btn--fuchsia.btn--outline:disabled:hover, .btn--fuchsia.btn--outline:disabled:focus {
+  background-color: #e6e7e8;
+  -webkit-box-shadow: inset 0 0 0 0.15em #e6e7e8;
+          box-shadow: inset 0 0 0 0.15em #e6e7e8;
+  cursor: not-allowed;
+}
+
+.btn--fuchsia.btn--outline:disabled, .btn--fuchsia.btn--outline:disabled:hover, .btn--fuchsia.btn--outline:disabled:focus {
+  background-color: transparent;
+  color: #e6e7e8;
+}
+
+.btn--outline, .btn--outline:hover, .btn--outline:focus {
+  background-color: transparent;
+}
+
+.btn--small {
+  font-size: 0.75rem;
+}
+
+.btn--big {
+  font-size: 1.25rem;
+}
+
+.btn .m-icon {
+  font-size: 1.75em;
+  position: relative;
+  margin-left: 0.25em;
+}
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,94 @@
+/* Colors */
+@import "colors";
+/* Fonts */
+//@import "fonts";
+
+:root {
+  scroll-behavior: smooth;
+  font-size: 18px;
+  font-style: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  text-shadow: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $clr--levander-light;
+  font-family: "Proxima Nova", sans-serif;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr {
+  margin: 1rem auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Champion";
+  font-weight: 300;
+  margin: 2rem 0 1rem 0;
+  color: $clr--purple-dark;
+}
+h1 {
+  font-size: 3.75rem;
+  margin: 0;
+  text-align: center;
+}
+h2 {
+  font-size: 3.125rem;
+  text-align: center;
+}
+h3 {
+  font-size: 3.125rem;
+  text-align: left;
+}
+h4 {
+  font-size: 1.15rem;
+  text-align: left;
+}
+p {
+  margin: 2rem 0 1rem 0;
+}
+.m-icon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+}
+.comps {
+  background-color: $clr--teal;
+  .container {
+    max-width: 1680px;
+    margin: auto;
+    padding: 2rem;
+    color: $clr--grey;
+  }
+  header,
+  section {
+    > h1,
+    > h2,
+    > h3,
+    > h4,
+    > p {
+      color: $clr--white;
+    }
+  }
+  *:first-child {
+    margin-top: 0;
+  }
+  *:last-child {
+    margin-bottom: 0;
+  }
+  .demo {
+    background-color: $clr--white;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 2rem;
+  }
+}
+/* Buttons */
+@import "buttons";

@@ -1,0 +1,54 @@
+@import url("ChampionWelter.css"); /*ChampionWelter*/
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Regular.woff2") format("woff2"),
+    url("ProximaNova-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Proxima Nova Semi Bold;
+  src: url("https://www.monster.de/mitarbeiter-finden/static/ProximaNova-Semibold-71cf32fd4daaee6026d8c8e62bb3759c.woff2")
+      format("woff2"),
+    url("https://www.monster.de/mitarbeiter-finden/static/ProximaNova-Semibold-fbdc0e6b19656c611ae53dee9623b737.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Bold.woff2") format("woff2"),
+    url("ProximaNova-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("ProximaNova-Light-aa3d2e068aa23a99eee7f2b0a4880c88.woff2")
+      format("woff2"),
+    url("ProximaNova-Light-36453eefae2edd1c9cd374de17a6ce63.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url("Material-Icons.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Champion;
+  src: url("Champion-Middleweight-0b74c8908bc04f7cb20a6bb6cafa6fd4.woff2")
+      format("woff2"),
+    url("Champion-Middleweight-4631adccccfbb862dee47768e7eb4d86.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

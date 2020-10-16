@@ -1,0 +1,75 @@
+$btn-colors: (
+  "default" $clr--teal $clr--teal-light,
+  "purple" $clr--purple-medium $clr--purple-light,
+  "red" $clr--red $clr--fuchsia,
+  "gold" $clr--gold $clr--mint,
+  "fuchsia" $clr--fuchsia $clr--purple-light
+);
+.btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-align: center;
+  text-decoration: none; //for a.btn
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  height: 3.8em;
+  padding: 0 1em;
+  border: none;
+  border-radius: 1.9em;
+  color: $clr--white;
+  transition: 0.3s ease all;
+  @each $btn-theme, $btn-color, $btn-hover in $btn-colors {
+    &--#{$btn-theme} {
+      background-color: $btn-color;
+      box-shadow: inset 0 0 0 0.15em $btn-color;
+    }
+    &--#{$btn-theme}:hover,
+    &--#{$btn-theme}:focus {
+      background-color: $btn-hover;
+      box-shadow: inset 0 0 0 0.15em $btn-hover;
+    }
+    &--#{$btn-theme}.btn--outline {
+      color: $btn-color;
+    }
+    &--#{$btn-theme}.btn--outline:hover,
+    &--#{$btn-theme}.btn--outline:focus {
+      color: $btn-hover;
+    }
+    &--#{$btn-theme}:disabled,
+    &--#{$btn-theme}:disabled:hover,
+    &--#{$btn-theme}.btn--outline:disabled,
+    &--#{$btn-theme}.btn--outline:disabled:hover,
+    &--#{$btn-theme}.btn--outline:disabled:focus {
+      background-color: $clr--grey-light;
+      box-shadow: inset 0 0 0 0.15em $clr--grey-light;
+      cursor: not-allowed;
+    }
+    &--#{$btn-theme}.btn--outline:disabled,
+    &--#{$btn-theme}.btn--outline:disabled:hover,
+    &--#{$btn-theme}.btn--outline:disabled:focus {
+      background-color: transparent;
+      color: $clr--grey-light;
+    }
+  }
+  &--outline,
+  &--outline:hover,
+  &--outline:focus {
+    background-color: transparent;
+  }
+
+  &--small {
+    font-size: 0.75rem;
+  }
+  &--big {
+    font-size: 1.25rem;
+  }
+}
+.btn .m-icon {
+  font-size: 1.75em;
+  position: relative;
+  margin-left: 0.25em;
+}
