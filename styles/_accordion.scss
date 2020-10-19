@@ -1,0 +1,65 @@
+.accordion {
+  background-color: $clr--white;
+  max-width: 792px;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+.acc-item {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid $GermsDarkGrey;
+  &--label {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1em 0;
+    color: $clr--teal;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.35s color ease;
+    &:hover {
+      color: $clr--teal-light;
+    }
+    &::after {
+      content: "expand_more";
+      font-family: "Material Icons";
+      font-size: 1.5em;
+      width: 1em;
+      height: 1em;
+      line-height: 1em;
+      text-align: center;
+      transition: all 0.35s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &--content {
+    max-height: 0;
+    padding: 0;
+    color: inherit;
+    transition: all 0.35s;
+  }
+}
+
+input:checked + .acc-item--label {
+  color: $clr--teal-light;
+}
+input:checked + .acc-item--label::after {
+  transform: scaleY(-1);
+}
+input:checked ~ .acc-item--content {
+  max-height: 100vh;
+  padding: 0 0 1em 0;
+}

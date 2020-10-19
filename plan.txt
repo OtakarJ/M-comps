@@ -3,3 +3,7 @@
     *   lists for sizes
     *   accordeon (faq, list...)
     *   forms
+    *   prices, packages
+
+### TO BE FIXED
+    *   font size doesn't match online pages

@@ -387,4 +387,92 @@ code {
   position: relative;
   margin-left: 0.25em;
 }
+
+/* FAQs Accordion styles */
+.accordion {
+  background-color: white;
+  max-width: 792px;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+}
+
+.accordion input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.acc-item {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #737373;
+}
+
+.acc-item--label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 1em 0;
+  color: #007d91;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: 0.35s color ease;
+  transition: 0.35s color ease;
+}
+
+.acc-item--label:hover {
+  color: #00b6b4;
+}
+
+.acc-item--label::after {
+  content: "expand_more";
+  font-family: "Material Icons";
+  font-size: 1.5em;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.acc-item:last-child {
+  border-bottom: none;
+}
+
+.acc-item--content {
+  max-height: 0;
+  padding: 0;
+  color: inherit;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+input:checked + .acc-item--label {
+  color: #00b6b4;
+}
+
+input:checked + .acc-item--label::after {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
+input:checked ~ .acc-item--content {
+  max-height: 100vh;
+  padding: 0 0 1em 0;
+}
 /*# sourceMappingURL=master.css.map */
