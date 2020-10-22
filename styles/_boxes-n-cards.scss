@@ -1,0 +1,33 @@
+a .card {
+  margin: 0;
+}
+.card {
+  display: block;
+  max-width: 360px;
+  box-shadow: -0.5rem 0.5rem 0 0 $clr--mint;
+  background-color: $clr--white;
+  margin: 1rem;
+}
+.card--img {
+  margin-bottom: -1rem;
+}
+.card--content {
+  padding: 2rem;
+  color: $clr--purple-dark;
+}
+.card--title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: $clr--teal;
+  h3 {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}

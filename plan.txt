@@ -7,3 +7,33 @@
 
 ### TO BE FIXED
     *   font size doesn't match online pages
+
+    elements
+	typography
+	buttons
+	icons
+	packages
+	slideshows
+	boxes
+        slideshow
+	cards
+        slideshow
+	forms
+	images
+	videos
+
+
+sections
+	heroes
+	columns
+	...
+
+
+themes
+	sections
+		colors
+		backgrounds
+	elements
+		buttons
+		boxes
+		cards

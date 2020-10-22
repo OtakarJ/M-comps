@@ -15,10 +15,10 @@
   overflow: hidden;
   border-bottom: 1px solid $GermsDarkGrey;
   &--label {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
+    align-items: center;
+
     padding: 1em 0;
     color: $clr--teal;
     font-weight: bold;
