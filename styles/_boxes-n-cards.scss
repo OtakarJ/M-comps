@@ -31,3 +31,15 @@ a .card {
     margin-top: 0;
   }
 }
+
+.testimonial {
+  display: block;
+  min-width: 600px;
+  position: relative;
+  &--content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2rem;
+  }
+}

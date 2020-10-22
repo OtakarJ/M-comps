@@ -246,6 +246,19 @@ a .card {
   margin-top: 0;
 }
 
+.testimonial {
+  display: block;
+  min-width: 600px;
+  position: relative;
+}
+
+.testimonial--content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 2rem;
+}
+
 /* Buttons */
 .btn {
   font-family: inherit;
@@ -526,8 +539,8 @@ a .card {
   height: 1em;
   line-height: 1em;
   text-align: center;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,8 +561,9 @@ a .card {
   max-height: 0;
   padding: 0;
   color: inherit;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  overflow: hidden;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 input:checked + .acc-item--label {
