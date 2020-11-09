@@ -1,3 +1,5 @@
+/* Breakpoints */
+@import "breakpoints";
 /* Colors */
 @import "colors";
 /* Fonts */
@@ -72,7 +74,8 @@ h4 {
     color: $clr--grey;
   }
   header,
-  section {
+  section,
+  footer {
     padding: 2rem;
     background-color: $clr--gold;
     .content {
@@ -88,8 +91,11 @@ h4 {
       }
     }
   }
-  section:nth-of-type(odd) {
+  h-include:nth-of-type(even) section {
     background-color: $clr--teal;
+  }
+  h-include:nth-of-type(odd) section {
+    background-color: $clr--gold;
   }
   header {
     height: calc(100vh / 3);
@@ -97,6 +103,10 @@ h4 {
     flex-direction: column;
     justify-content: center;
     background-color: $ViolentFemmesViolet;
+  }
+  footer {
+    background-color: $clr--purple-dark;
+    color: $clr--white;
   }
   /**:first-child {
     margin-top: 0;
@@ -155,6 +165,7 @@ code {
 }
 /* Boxes & Cards */
 @import "boxes-n-cards";
+@import "testimonials";
 
 /* Buttons */
 @import "buttons";

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M-Components</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="fonts/fonts3.css" />
+  </head>
+
+  <body class="comps">
+    <div class="container">
+      <!-- Header -->
+      <h-include src="/comps/_header.html"></h-include>
+
+      <!-- Boxes and cards -->
+      <h-include src="/comps/boxes-cards.html"></h-include>
+
+      <!-- Typography -->
+      <h-include src="/comps/typography.html"></h-include>
+
+      <!-- Buttons -->
+      <h-include src="/comps/buttons.html"></h-include>
+
+      <!-- Accordion -->
+      <h-include src="/comps/accordion.html"></h-include>
+
+      <!-- footer -->
+      <h-include src="/comps/_footer.html"></h-include>
+    </div>
+    <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+    <script src="scripts/h-include.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        HInclude.initLazyLoad();
+      });
+    </script>
+  </body>
+</html>
