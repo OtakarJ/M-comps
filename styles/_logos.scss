@@ -1,5 +1,5 @@
 .logo {
-  width: auto;
+  width: 147px;
   height: 25px;
   fill: $c--purple-light;
   &--teal-light {
@@ -20,6 +20,10 @@
   &--light {
     fill: $c--levander;
   }
+}
+.logo-mb {
+  width: 259px;
+  height: 25px;
 }
 .logo-m {
   width: 40px;
