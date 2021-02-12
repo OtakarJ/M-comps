@@ -10,9 +10,9 @@
   max-width: 400px;
   min-width: 280px;
   width: calc(100% / 3);
-  background-color: #230939;
-  color: #fff;
-  box-shadow: -1rem 1rem 0 0 #82d296;
+  background-color: $c--purple-dark;
+  color: $c--white;
+  box-shadow: -1rem 1rem 0 0 $c--mint;
   padding: 2rem 1rem;
   font-size: 16px;
   text-align: left;
@@ -22,7 +22,7 @@
   transition: all ease 0.3s;
 }
 .tm:hover {
-  box-shadow: -1rem 1rem 0 0 #f2b127;
+  box-shadow: -1rem 1rem 0 0 $c--gold;
 }
 .tm--photo img {
   border-radius: 50% 50%;
@@ -30,7 +30,7 @@
   height: auto;
   display: block;
   margin: auto;
-  background-color: #fff;
+  background-color: $c--white;
 }
 .tm--details {
   position: relative;
@@ -45,7 +45,7 @@
   font-size: 18px;
 }
 .tm--company {
-  color: #f2b127;
+  color: $c--gold;
   font-weight: bold;
 }
 .tm--company-logo {
@@ -57,7 +57,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  background-color: #fff;
+  background-color: $c--white;
   padding: 5px;
   overflow: hidden;
   position: absolute;

@@ -1,5 +1,5 @@
 .accordion {
-  background-color: $clr--white;
+  background-color: $c--white;
   max-width: 792px;
   margin: auto;
   overflow: hidden;
@@ -13,18 +13,18 @@
 .acc-item {
   width: 100%;
   overflow: hidden;
-  border-bottom: 1px solid $GermsDarkGrey;
+  border-bottom: 1px solid $c--gray;
   &--label {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 0;
-    color: $clr--teal;
+    color: $c--teal;
     font-weight: bold;
     cursor: pointer;
     transition: 0.35s color ease;
     &:hover {
-      color: $clr--teal-light;
+      color: $c--teal-light;
     }
     &::after {
       content: "expand_more";
@@ -54,7 +54,7 @@
 }
 
 input:checked + .acc-item--label {
-  color: $clr--teal-light;
+  color: $c--teal-light;
 }
 input:checked + .acc-item--label::after {
   transform: scaleY(-1);

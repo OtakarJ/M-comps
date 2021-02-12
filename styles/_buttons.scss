@@ -1,9 +1,9 @@
 $btn-colors: (
-  "default" $clr--teal $clr--teal-light,
-  "purple" $clr--purple-medium $clr--purple-light,
-  "red" $clr--red $clr--fuchsia,
-  "gold" $clr--gold $clr--mint,
-  "fuchsia" $clr--fuchsia $clr--purple-light
+  "default" $c--teal $c--teal-light,
+  "purple" $c--purple-medium $c--purple-light,
+  "red" $c--red $c--fuchsia,
+  "gold" $c--gold $c--mint,
+  "fuchsia" $c--fuchsia $c--purple-light
 );
 .btn {
   font-family: inherit;
@@ -24,7 +24,7 @@ $btn-colors: (
   padding: 0 1em;
   border: none;
   border-radius: 1.9em;
-  color: $clr--white;
+  color: $c--white;
   transition: 0.3s ease all;
   @each $btn-theme, $btn-color, $btn-hover in $btn-colors {
     &--#{$btn-theme} {
@@ -49,8 +49,8 @@ $btn-colors: (
       &:disabled,
       &:disabled:hover,
       &:disabled:focus {
-        background-color: $clr--grey-light;
-        box-shadow: inset 0 0 0 0.15em $clr--grey-light;
+        background-color: $c--gray-light;
+        box-shadow: inset 0 0 0 0.15em $c--gray-light;
         cursor: not-allowed;
       }
     }
@@ -59,7 +59,7 @@ $btn-colors: (
       &:disabled:hover,
       &:disabled:focus {
         background-color: transparent;
-        color: $clr--grey-light;
+        color: $c--gray-light;
       }
     }
     &--outline,

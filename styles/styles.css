@@ -206,15 +206,15 @@ code {
 .logo {
   width: 294px;
   height: 50px;
-  fill: #6e46ae;
+  fill: #3d2462;
 }
 
 .logo--teal-light {
-  --color-pop: #00b6b4;
+  --color-pop: $clr--teal-light;
 }
 
 .logo--mint {
-  --color-pop: #82d296;
+  --color-pop: $clr--mint;
 }
 
 .logo--red {

@@ -4,8 +4,8 @@ a .card {
 .card {
   display: block;
   max-width: 360px;
-  box-shadow: -0.5rem 0.5rem 0 0 $clr--mint;
-  background-color: $clr--white;
+  box-shadow: -0.5rem 0.5rem 0 0 $c--mint;
+  background-color: $c--white;
   margin: 1rem;
 }
 .card--img {
@@ -13,13 +13,13 @@ a .card {
 }
 .card--content {
   padding: 2rem;
-  color: $clr--purple-dark;
+  color: $c--purple-dark;
 }
 .card--title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: $clr--teal;
+  color: $c--teal;
   h3 {
     font-size: 1em;
     font-family: inherit;
