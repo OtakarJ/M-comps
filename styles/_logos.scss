@@ -1,7 +1,7 @@
 .logo {
-  width: 147px * 2;
-  height: 25px * 2;
-  fill: $c--purple-medium;
+  width: 147px;
+  height: 25px;
+  fill: $c--purple-light;
   &--teal-light {
     --color-pop: rgb(0, 182, 180);
   }
@@ -23,7 +23,7 @@
 }
 .logo-mb {
   width: auto;
-  height: 25px * 2;
+  height: 25px;
 }
 .logo-m {
   width: 40px;
