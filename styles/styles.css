@@ -210,23 +210,23 @@ code {
 }
 
 .logo--teal-light {
-  --color-pop: $c--teal-light;
+  --color-pop: rgb(0, 182, 180);
 }
 
 .logo--mint {
-  --color-pop: $c--mint;
+  --color-pop: rgb(130, 210, 150);
 }
 
 .logo--red {
-  --color-pop: $c--red;
+  --color-pop: rgb(220, 50, 60);
 }
 
 .logo--gold {
-  --color-pop: $c--gold;
+  --color-pop: rgb(240, 155, 30);
 }
 
 .logo--fuchsia {
-  --color-pop: $c--fuchsia;
+  --color-pop: rgb(181, 87, 175);
 }
 
 .logo--light {

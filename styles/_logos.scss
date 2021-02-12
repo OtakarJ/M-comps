@@ -3,19 +3,19 @@
   height: 25px * 2;
   fill: $c--purple-medium;
   &--teal-light {
-    --color-pop: $c--teal-light;
+    --color-pop: rgb(0, 182, 180);
   }
   &--mint {
-    --color-pop: $c--mint;
+    --color-pop: rgb(130, 210, 150);
   }
   &--red {
-    --color-pop: $c--red;
+    --color-pop: rgb(220, 50, 60);
   }
   &--gold {
-    --color-pop: $c--gold;
+    --color-pop: rgb(240, 155, 30);
   }
   &--fuchsia {
-    --color-pop: $c--fuchsia;
+    --color-pop: rgb(181, 87, 175);
   }
   &--light {
     fill: $c--levander;
@@ -32,18 +32,18 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   // IE10+ Fallback
   .logo-m.logo--teal-light {
-    fill: $c--teal-light;
+    fill: rgb(0, 182, 180);
   }
   .logo-m.logo--mint {
-    fill: $c--mint;
+    fill: rgb(130, 210, 150);
   }
   .logo-m.logo--red {
-    fill: $c--red;
+    fill: rgb(220, 50, 60);
   }
   .logo-m.logo--gold {
-    fill: $c--gold;
+    fill: rgb(240, 155, 30);
   }
   .logo-m.logo--fuchsia {
-    fill: $c--fuchsia;
+    fill: rgb(181, 87, 175);
   }
 }
