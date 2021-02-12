@@ -202,6 +202,60 @@ code {
   box-shadow: 0.25em 0.25em 0 0em #d5d3e4;
 }
 
+/* Logos */
+.logo {
+  width: 294px;
+  height: 50px;
+  fill: #6e46ae;
+}
+
+.logo--teal-light {
+  --color-pop: #00b6b4;
+}
+
+.logo--mint {
+  --color-pop: #82d296;
+}
+
+.logo--red {
+  --color-pop: #dc323c;
+}
+
+.logo--gold {
+  --color-pop: #f09b1e;
+}
+
+.logo--fuchsia {
+  --color-pop: #b557af;
+}
+
+.logo--light {
+  fill: #d5d3e4;
+}
+
+.logo-m {
+  width: 40px;
+  height: 40px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .logo-m.logo--teal-light {
+    fill: #00b6b4;
+  }
+  .logo-m.logo--mint {
+    fill: #82d296;
+  }
+  .logo-m.logo--red {
+    fill: #dc323c;
+  }
+  .logo-m.logo--gold {
+    fill: #f09b1e;
+  }
+  .logo-m.logo--fuchsia {
+    fill: #b557af;
+  }
+}
+
 /* Boxes & Cards */
 a .card {
   margin: 0;
@@ -256,6 +310,7 @@ a .card {
   padding: 2rem;
 }
 
+/* Boxes & Cards */
 .testimonials {
   margin: auto;
   display: flex;

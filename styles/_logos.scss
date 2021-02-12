@@ -1,0 +1,47 @@
+.logo {
+  width: 147px * 2;
+  height: 25px * 2;
+  fill: #6e46ae;
+  &--teal-light {
+    --color-pop: #00b6b4;
+  }
+  &--mint {
+    --color-pop: #82d296;
+  }
+  &--red {
+    --color-pop: #dc323c;
+  }
+  &--gold {
+    --color-pop: #f09b1e;
+  }
+  &--fuchsia {
+    --color-pop: #b557af;
+  }
+  &--light {
+    fill: #d5d3e4;
+  }
+}
+.logo-mb {
+}
+.logo-m {
+  width: 40px;
+  height: 40px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  // IE10+ Fallback
+  .logo-m.logo--teal-light {
+    fill: #00b6b4;
+  }
+  .logo-m.logo--mint {
+    fill: #82d296;
+  }
+  .logo-m.logo--red {
+    fill: #dc323c;
+  }
+  .logo-m.logo--gold {
+    fill: #f09b1e;
+  }
+  .logo-m.logo--fuchsia {
+    fill: #b557af;
+  }
+}

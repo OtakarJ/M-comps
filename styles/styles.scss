@@ -163,8 +163,13 @@ code {
   margin-right: 0.25em;
   box-shadow: 0.25em 0.25em 0 0em $LeTigreLavender;
 }
+/* Logos */
+@import "logos";
+
 /* Boxes & Cards */
 @import "boxes-n-cards";
+
+/* Boxes & Cards */
 @import "testimonials";
 
 /* Buttons */
