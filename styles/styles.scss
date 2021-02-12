@@ -15,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: $clr--levander-light;
+  background-color: $c--levander;
   font-family: "Proxima Nova", sans-serif;
 }
 body * {
@@ -33,7 +33,7 @@ h4 {
   font-family: "Champion";
   font-weight: 300;
   margin: 2rem 0 1rem 0;
-  color: $clr--purple-dark;
+  color: $c--purple-dark;
 }
 h1 {
   font-size: 3.75rem;
@@ -71,13 +71,13 @@ h4 {
   .container {
     max-width: 3840px;
     margin: auto;
-    color: $clr--grey;
+    color: $c--gray;
   }
   header,
   section,
   footer {
     padding: 2rem;
-    background-color: $clr--gold;
+    background-color: $c--gold;
     .content {
       margin: auto;
       max-width: 1366px;
@@ -87,15 +87,15 @@ h4 {
       > h3,
       > h4,
       > p {
-        color: $clr--white;
+        color: $c--white;
       }
     }
   }
   h-include:nth-of-type(even) section {
-    background-color: $clr--teal;
+    background-color: $c--teal;
   }
   h-include:nth-of-type(odd) section {
-    background-color: $clr--gold;
+    background-color: $c--gold;
   }
   header {
     height: calc(100vh / 3);
@@ -105,8 +105,8 @@ h4 {
     background-color: $ViolentFemmesViolet;
   }
   footer {
-    background-color: $clr--purple-dark;
-    color: $clr--white;
+    background-color: $c--purple-dark;
+    color: $c--white;
   }
   /**:first-child {
     margin-top: 0;
@@ -139,10 +139,10 @@ h4 {
   }
 
   .demo {
-    background-color: $clr--white;
+    background-color: $c--white;
     padding: 3rem;
     margin: 2rem 0;
-    box-shadow: 0.5rem 0.5rem 0 0 $clr--purple-light;
+    box-shadow: 0.5rem 0.5rem 0 0 $c--purple-light;
   }
   .quick-flexbox {
     display: flex;
@@ -156,8 +156,8 @@ h4 {
   }
 }
 code {
-  background-color: $clr--grey-light;
-  color: $clr--purple-dark;
+  background-color: $c--gray-light;
+  color: $c--purple-dark;
   font-weight: bold;
   padding: 0.2em;
   margin-right: 0.25em;

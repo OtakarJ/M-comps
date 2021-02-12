@@ -206,31 +206,36 @@ code {
 .logo {
   width: 294px;
   height: 50px;
-  fill: #3d2462;
+  fill: #e6e7e8;
 }
 
 .logo--teal-light {
-  --color-pop: $clr--teal-light;
+  --color-pop: $c--teal-light;
 }
 
 .logo--mint {
-  --color-pop: $clr--mint;
+  --color-pop: $c--mint;
 }
 
 .logo--red {
-  --color-pop: #dc323c;
+  --color-pop: $c--red;
 }
 
 .logo--gold {
-  --color-pop: #f09b1e;
+  --color-pop: $c--gold;
 }
 
 .logo--fuchsia {
-  --color-pop: #b557af;
+  --color-pop: $c--fuchsia;
 }
 
 .logo--light {
   fill: #d5d3e4;
+}
+
+.logo-mb {
+  width: auto;
+  height: 50px;
 }
 
 .logo-m {
@@ -325,7 +330,7 @@ a .card {
   min-width: 280px;
   width: calc(100% / 3);
   background-color: #230939;
-  color: #fff;
+  color: white;
   box-shadow: -1rem 1rem 0 0 #82d296;
   padding: 2rem 1rem;
   font-size: 16px;
@@ -337,7 +342,7 @@ a .card {
 }
 
 .tm:hover {
-  box-shadow: -1rem 1rem 0 0 #f2b127;
+  box-shadow: -1rem 1rem 0 0 #f09b1e;
 }
 
 .tm--photo img {
@@ -346,7 +351,7 @@ a .card {
   height: auto;
   display: block;
   margin: auto;
-  background-color: #fff;
+  background-color: white;
 }
 
 .tm--details {
@@ -364,7 +369,7 @@ a .card {
 }
 
 .tm--company {
-  color: #f2b127;
+  color: #f09b1e;
   font-weight: bold;
 }
 
@@ -377,7 +382,7 @@ a .card {
   justify-content: center;
   align-items: center;
   margin: auto;
-  background-color: #fff;
+  background-color: white;
   padding: 5px;
   overflow: hidden;
   position: absolute;
