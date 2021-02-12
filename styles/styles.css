@@ -204,7 +204,7 @@ code {
 
 /* Logos */
 .logo {
-  width: 147px;
+  width: auto;
   height: 25px;
   fill: #6e46ae;
 }
@@ -231,11 +231,6 @@ code {
 
 .logo--light {
   fill: #d5d3e4;
-}
-
-.logo-mb {
-  width: auto;
-  height: 25px;
 }
 
 .logo-m {
