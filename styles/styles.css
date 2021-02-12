@@ -206,31 +206,6 @@ code {
 .logo {
   width: 147px;
   height: 25px;
-  fill: #6e46ae;
-}
-
-.logo--teal-light {
-  --color-pop: rgb(0, 182, 180);
-}
-
-.logo--mint {
-  --color-pop: rgb(130, 210, 150);
-}
-
-.logo--red {
-  --color-pop: rgb(220, 50, 60);
-}
-
-.logo--gold {
-  --color-pop: rgb(240, 155, 30);
-}
-
-.logo--fuchsia {
-  --color-pop: rgb(181, 87, 175);
-}
-
-.logo--light {
-  fill: #d5d3e4;
 }
 
 .logo-mb {
@@ -241,6 +216,41 @@ code {
 .logo-m {
   width: 40px;
   height: 40px;
+}
+
+.logo,
+.logo-mb {
+  fill: #6e46ae;
+}
+
+.logo--teal-light,
+.logo-mb--teal-light {
+  --color-pop: rgb(0, 182, 180);
+}
+
+.logo--mint,
+.logo-mb--mint {
+  --color-pop: rgb(130, 210, 150);
+}
+
+.logo--red,
+.logo-mb--red {
+  --color-pop: rgb(220, 50, 60);
+}
+
+.logo--gold,
+.logo-mb--gold {
+  --color-pop: rgb(240, 155, 30);
+}
+
+.logo--fuchsia,
+.logo-mb--fuchsia {
+  --color-pop: rgb(181, 87, 175);
+}
+
+.logo--light,
+.logo-mb--light {
+  fill: #d5d3e4;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

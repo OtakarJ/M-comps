@@ -1,6 +1,17 @@
 .logo {
   width: 147px;
   height: 25px;
+}
+.logo-mb {
+  width: 259px;
+  height: 25px;
+}
+.logo-m {
+  width: 40px;
+  height: 40px;
+}
+.logo,
+.logo-mb {
   fill: $c--purple-light;
   &--teal-light {
     --color-pop: rgb(0, 182, 180);
@@ -20,14 +31,6 @@
   &--light {
     fill: $c--levander;
   }
-}
-.logo-mb {
-  width: 259px;
-  height: 25px;
-}
-.logo-m {
-  width: 40px;
-  height: 40px;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   // IE10+ Fallback
